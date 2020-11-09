@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "d22c019f-7f55-4245-903e-d1f4b4aa20ac",
+		"name": "test-newman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://10.186.0.17:8080/tfs/TestCollection/smbands/_apis/build/builds/289?api-version=4.1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic dGZzYWRtaW46YmR1cWdueHpsa3ZrM2V4ZjVlbnVva256bGx6Y2FmYTQ2ZW5qZ2czM3JkbWZkM3RmZGo0cQ==",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://10.186.0.17:8080/tfs/TestCollection/smbands/_apis/build/builds/289?api-version=4.1",
+					"protocol": "http",
+					"host": [
+						"10",
+						"186",
+						"0",
+						"17"
+					],
+					"port": "8080",
+					"path": [
+						"tfs",
+						"TestCollection",
+						"smbands",
+						"_apis",
+						"build",
+						"builds",
+						"289"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "4.1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
